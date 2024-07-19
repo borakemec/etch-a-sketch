@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    height: 600px;
+    width: 600px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+div {
+    border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.sizebtn, p, .resetbtn {
+    position: absolute;
+    margin-left: 500px;
+}
+
+.sizebtn:hover, .resetbtn:hover {
+    cursor: pointer;
+}
+
+.sizebtn {
+    margin-top: 100px;
+    width: 100px;
+    height: 40px;
+}
+
+.randomchk {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 250px;
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    margin-left: 500px;
+    margin-top: 250px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.resetbtn {
+    margin-top: 175px;
+    width: 100px;
+    height: 40px;
+}
